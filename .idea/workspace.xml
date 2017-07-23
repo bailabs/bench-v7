@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f7485bb-f984-4826-94a2-f1942d1d9af2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/install_scripts/setup_frappe.sh" afterPath="$PROJECT_DIR$/install_scripts/setup_frappe.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vm/ansible/vm.yml" afterPath="$PROJECT_DIR$/vm/ansible/vm.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bench/utils.py" afterPath="$PROJECT_DIR$/bench/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playbooks/develop/includes/setup_bench.yml" afterPath="$PROJECT_DIR$/playbooks/develop/includes/setup_bench.yml" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +27,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vm.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vm.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vm/ansible/vm.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
-              <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playbooks/install.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="199" column="68" lean-forward="false" selection-start-line="199" selection-start-column="68" selection-end-line="199" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_init.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bench/tests/test_init.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="94" column="66" lean-forward="false" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup_bench.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/playbooks/develop/includes/setup_bench.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bench/utils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="53" column="67" lean-forward="false" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -42,6 +83,8 @@
     <findStrings>
       <find>erpnext</find>
       <find>https://github.com/frappe/bench</find>
+      <find>github.com/frappe/bench</find>
+      <find>https://github.com/frappe/frappe</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -56,6 +99,10 @@
         <option value="$PROJECT_DIR$/playbooks/production/includes/setup_bench_production.yml" />
         <option value="$PROJECT_DIR$/install_scripts/setup_frappe.sh" />
         <option value="$PROJECT_DIR$/vm/ansible/vm.yml" />
+        <option value="$PROJECT_DIR$/playbooks/install.py" />
+        <option value="$PROJECT_DIR$/bench/tests/test_init.py" />
+        <option value="$PROJECT_DIR$/playbooks/develop/includes/setup_bench.yml" />
+        <option value="$PROJECT_DIR$/bench/utils.py" />
       </list>
     </option>
   </component>
@@ -233,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500769307921</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="erpnext">
+      <created>1500781537296</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500781537296</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -311,7 +365,39 @@
     <entry file="file://$PROJECT_DIR$/vm/ansible/vm.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="50" lean-forward="false" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playbooks/install.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="199" column="68" lean-forward="false" selection-start-line="199" selection-start-column="68" selection-end-line="199" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/playbooks/develop/includes/setup_bench.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bench/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="53" column="67" lean-forward="false" selection-start-line="53" selection-start-column="67" selection-end-line="53" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bench/tests/test_init.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="94" column="66" lean-forward="false" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="66" />
           <folding />
         </state>
       </provider>
