@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0f7485bb-f984-4826-94a2-f1942d1d9af2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/playbooks/production/includes/setup_bench_production.yml" afterPath="$PROJECT_DIR$/playbooks/production/includes/setup_bench_production.yml" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="setup_bench_production.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/playbooks/production/includes/setup_bench_production.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="546">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -491,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1500785127015</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="erpnext">
+      <created>1500791678198</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1500791678198</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -885,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/playbooks/production/includes/setup_bench_production.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state relative-caret-position="546">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding />
         </state>
       </provider>
