@@ -101,7 +101,7 @@ def install_bench(args):
 	if args.production:
 		extra_vars.update(max_worker_connections=multiprocessing.cpu_count() * 1024)
 
-	branch = 'master' if args.production else 'develop'
+	branch = 'master' if args.production else 'master'
 	extra_vars.update(branch=branch)
 
 	if args.develop:
