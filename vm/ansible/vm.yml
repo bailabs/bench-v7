@@ -5,7 +5,7 @@
   user: "{{ frappe_user }}"
   tasks:
       - git:
-          repo=https://github.com/frappe/bench
+          repo=https://github.com/bailabs/bench-v7
           dest=/home/frappe/bench-repo
   tags:
     - bench_install

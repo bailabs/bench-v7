@@ -373,7 +373,7 @@ setup_debconf() {
 }
 
 install_bench() {
-	run_cmd sudo su $FRAPPE_USER -c "cd /home/$FRAPPE_USER && git clone https://github.com/frappe/bench --branch $BENCH_BRANCH bench-repo"
+	run_cmd sudo su $FRAPPE_USER -c "cd /home/$FRAPPE_USER && git clone https://github.com/bailabs/bench-v7.git bench-repo"
 	if hash pip-2.7 &> /dev/null; then
 		PIP="pip-2.7"
 	elif hash pip2.7 &> /dev/null; then
