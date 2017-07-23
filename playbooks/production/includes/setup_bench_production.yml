@@ -22,15 +22,15 @@
 
     # In case we are re-running the script, we would like to skip getting ERPNext App
     - name: Get-app erpnext app
-      command: bench get-app erpnext https://github.com/frappe/erpnext.git --branch {{ branch }}
+      command: bench get-app erpnext https://github.com/bailabs/erpnext-v7.git --branch master
       args:
         chdir: '{{ bench_path }}'
       when: not app.stat.exists
 
-#    - name: Install erpnext app
-#      command: bench --site {{ site }} install-app erpnext
-#      args:
-#        chdir: '{{ bench_path }}'
+    - name: Install erpnext app
+      command: bench --site {{ site }} install-app erpnext
+      args:
+        chdir: '{{ bench_path }}'
 
     - name: Change permissions for frappe home folder
       become: yes
