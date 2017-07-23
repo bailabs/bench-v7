@@ -13,3 +13,8 @@
     sudo python install.py --production
 
 	
+	
+	
+DigitalOcean Problem
+
+    sudo rm -rvf /var/lib/apt/lists/*
