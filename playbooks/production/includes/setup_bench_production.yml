@@ -27,10 +27,10 @@
         chdir: '{{ bench_path }}'
       when: not app.stat.exists
 
-    - name: Install erpnext app
-      command: bench --site {{ site }} install-app erpnext
-      args:
-        chdir: '{{ bench_path }}'
+#    - name: Install erpnext app
+#      command: bench --site {{ site }} install-app erpnext
+#      args:
+#        chdir: '{{ bench_path }}'
 
     - name: Change permissions for frappe home folder
       become: yes
