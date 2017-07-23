@@ -23,7 +23,7 @@
     register: bench_stat
 
   - name: init bench
-    command: bench init {{ bench_path }} --frappe-branch {{ branch }}
+    command: bench init {{ bench_path }} --frappe-branch master
     args:
       creates: "{{ bench_path }}"
     when: not bench_stat.stat.exists
