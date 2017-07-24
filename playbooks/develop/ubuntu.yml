@@ -1,8 +1,8 @@
 ---
 - hosts: localhost
   vars:
-    bench_repo_path: "/home/{{ ansible_user_id }}/.bench"
-    bench_path: "/home/{{ ansible_user_id }}/frappe-bench"
+    bench_repo_path: "/home/{{ ansible_user_id }}/bench-v7"
+    bench_path: "/home/{{ ansible_user_id }}/frappe-v7"
     mysql_config_template: "templates/simple_mariadb_config.cnf"
     mysql_conf_dir: /etc/mysql/conf.d/
 

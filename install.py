@@ -2,7 +2,7 @@
 import os, sys, subprocess, getpass, json, multiprocessing, shutil, platform
 from distutils.spawn import find_executable
 
-tmp_bench_repo = '/tmp/.bench'
+tmp_bench_repo = '/tmp/bench-v7'
 
 def install_bench(args):
 	check_distribution_compatibility()
@@ -322,7 +322,7 @@ def parse_commandline_args():
 	parser.add_argument('--verbose', dest='verbosity', action='store_true', default=False,
 		help='Run the script in verbose mode')
 
-	parser.add_argument('--user', dest='user', help='Install frappe-bench for this user')
+	parser.add_argument('--user', dest='user', help='Install frappe-v7 for this user')
 
 	parser.add_argument('--bench-branch', dest='bench_branch', help='Clone a particular branch of bench repository')
 

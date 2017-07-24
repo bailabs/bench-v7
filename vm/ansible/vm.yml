@@ -54,10 +54,10 @@
   tasks:
     - shell: "bench setup sudoers {{ frappe_user }}"
       args:
-        chdir: "/home/{{ frappe_user }}/frappe-bench"
-        creates: "/home/{{ frappe_user }}/frappe-bench/config/supervisor.conf"
+        chdir: "/home/{{ frappe_user }}/frappe-v7"
+        creates: "/home/{{ frappe_user }}/frappe-v7/config/supervisor.conf"
     - shell: "bench setup production {{ frappe_user }}"
       args:
-        chdir: "/home/{{ frappe_user }}/frappe-bench"
-        creates: "/home/{{ frappe_user }}/frappe-bench/config/supervisor.conf"
-    - file: path="/home/{{ frappe_user }}/frappe-bench/logs/" recurse=yes owner="{{ frappe_user }}"
+        chdir: "/home/{{ frappe_user }}/frappe-v7"
+        creates: "/home/{{ frappe_user }}/frappe-v7/config/supervisor.conf"
+    - file: path="/home/{{ frappe_user }}/frappe-v7/logs/" recurse=yes owner="{{ frappe_user }}"

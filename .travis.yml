@@ -8,10 +8,10 @@ python:
 install:
   - sudo apt-get purge -y mysql-common mysql-server mysql-client
   - sudo apt-get install --only-upgrade -y git
-  - mkdir -p ~/.bench
-  - mkdir -p /tmp/.bench
-  - cp -r $TRAVIS_BUILD_DIR/* ~/.bench
-  - cp -r $TRAVIS_BUILD_DIR/* /tmp/.bench
+  - mkdir -p ~/bench-v7
+  - mkdir -p /tmp/bench-v7
+  - cp -r $TRAVIS_BUILD_DIR/* ~/bench-v7
+  - cp -r $TRAVIS_BUILD_DIR/* /tmp/bench-v7
 
   - sudo python $TRAVIS_BUILD_DIR/playbooks/install.py --user travis --run-travis --production
   # - sudo bash $TRAVIS_BUILD_DIR/install_scripts/setup_frappe.sh --skip-install-bench --mysql-root-password travis
@@ -20,6 +20,6 @@ install:
 script:
   - cd ~
   - sudo pip install --upgrade pip
-  - sudo pip install -e ~/.bench
+  - sudo pip install -e ~/bench-v7
   # - sudo python -m unittest bench.tests.test_setup_production.TestSetupProduction.test_setup_production_v6
   - sudo python -m unittest -v bench.tests.test_setup_production
