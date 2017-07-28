@@ -19,10 +19,10 @@
 Make sure socket.io version is 1.4.8
 
 To check socket.io version
-    npm list socket.io
+    ```npm list socket.io```
    
 To install socket.io version
-    npm install socket.io@1.4.8
+    ```npm install socket.io@1.4.8```
 
 DigitalOcean Problem
 
