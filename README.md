@@ -12,6 +12,12 @@
     curl "https://raw.githubusercontent.com/bailabs/bench-v7/master/install.py" -o install.py
     sudo python install.py --production
 
+
+## Development Install
+
+    curl "https://raw.githubusercontent.com/bailabs/bench-v7/master/install.py" -o install.py
+    sudo python install.py --develop
+
 	
 	
 	
